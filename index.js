@@ -46,6 +46,6 @@ function getLinksFromHTML(html) {
         .slice(1, ar.length);
 }
 
-function writeToFile(url, html) {
-    fs.writeFileSync(`./data/pages/${url.split('/').join('_')}.html`, html, { encoding: 'utf-8' });
+function writeToFile(path, html) {
+    fs.writeFileSync(`./data/pages/${path.split('/').join('_')}.html`, html, { encoding: 'utf-8' });
 }
