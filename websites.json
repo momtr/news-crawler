@@ -1,0 +1,7 @@
+{
+    "links": [
+        { "link": "https://orf.at/", "key": "orf" },
+        { "link": "https://www.derstandard.at/", "key": "standard" },
+        { "link": "https://www.diepresse.com/", "key": "presse" }
+    ]
+}
